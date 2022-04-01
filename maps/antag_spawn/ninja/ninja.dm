@@ -37,6 +37,14 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	req_access = list(access_syndicate)
 
+/area/map_template/vulture
+	name = "\improper Vulture"
+	icon_state = "yellow"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+	req_access = list(access_syndicate)
+
 /area/map_template/ninja_dojo/dojo
 	name = "\improper Clan Dojo"
 	dynamic_lighting = 0
